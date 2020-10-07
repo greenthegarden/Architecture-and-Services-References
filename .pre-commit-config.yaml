@@ -31,7 +31,7 @@ repos:
           )$"
         # Do not run on Git push
         stages: [commit]
-        verbose: false
+        verbose: true
 
   - repo: https://github.com/igorshubovych/markdownlint-cli.git
     rev: v0.23.2
