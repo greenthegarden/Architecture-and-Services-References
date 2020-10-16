@@ -4,22 +4,31 @@
 minimum_pre_commit_version: 1.16.1
 
 repos:
+
   - repo: https://github.com/pre-commit/pre-commit-hooks.git
     rev: "v3.2.0"
     hooks:
-      # - id: check-executables-have-shebangs
       - id: check-added-large-files
       - id: check-byte-order-marker
       - id: check-case-conflict
+      - id: check-executables-have-shebangs
       - id: check-json
       - id: check-merge-conflict
       - id: check-yaml
+      - id: detect-private-key
       - id: end-of-file-fixer
+      - id: fix-encoding-pragma
+        args: [--remove]
       - id: mixed-line-ending
         args: ["--fix=lf"]
-      - id: pretty-format-json
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext=md"]
+
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: "v1.1.9"
+    hooks:
+      - id: forbid-crlf
+      - id: forbid-tabs
 
   # Format JSON, Markdown and YAML files with Prettier.
   - repo: https://github.com/prettier/prettier
@@ -36,12 +45,25 @@ repos:
         stages: [commit]
         verbose: true
 
-  # - repo: https://github.com/jumanjihouse/pre-commit-hooks.git
-  #   rev: "2.1.0"
+    # Format yaml files
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: "v1.25.0"
+    hooks:
+      - id: yamllint
+
+# Configuration defined in .markdownlint.json
+# See https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md for configuration options
+  # - repo: https://github.com/igorshubovych/markdownlint-cli
+  #   rev: "v0.22.0"
   #   hooks:
-  #     - id: git-check
-  #     - id: git-dirty
   #     - id: markdownlint
+
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: "2.1.4"  # or specific git tag
+    hooks:
+      - id: git-check  # Configure in .gitattributes
+      - id: git-dirty  # Configure in .gitignore
+      - id: markdownlint # Configure in .mdlrc
 
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook.git
     rev: "v3.0.0"
