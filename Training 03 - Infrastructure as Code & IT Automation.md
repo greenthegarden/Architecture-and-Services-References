@@ -18,7 +18,7 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 
 ### Books
 
-* [Terraform: Up & Running, 2nd Edition Book](https://learning.oreilly.com/library/view/terraform-up/9781492046899/) by  Yevgeniy Brikman
+* [Terraform: Up & Running, 2nd Edition Book](https://learning.oreilly.com/library/view/terraform-up/9781492046899/) by Yevgeniy Brikman
 * [Infrastructure as Code, 2nd Edition Book](https://learning.oreilly.com/library/view/infrastructure-as-code/9781098114664/) by Kief Morris
 
 ### Tutorials

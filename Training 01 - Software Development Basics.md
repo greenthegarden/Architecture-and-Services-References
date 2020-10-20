@@ -6,7 +6,9 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 
 # Training: 01 - Software Development Basics
 
-## Introductory References
+> As with any task software development has many fundamental **tools of the trade**.
+
+## References
 
 ### Articles
 
@@ -31,6 +33,13 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ### Video Playlists
 
 TBD
+
+### Tutorials
+
+TBD
+
+## Benefits of Tools
+
 
 ## Technologies
 
