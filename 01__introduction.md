@@ -1,10 +1,10 @@
 ---
-title: Training 00 - Introduction
+title: Training 01 - Introduction
 date: 2020-10-09
 authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
-# Training: 00 - Introduction
+# Training: 01 - Introduction
 
 Training material designed to provide a set of resources for users entering or interested in the world of Cloud-Native Technologies. The material is prepared in Markdown format, the source for which is available at https://bitbucket.dsto.defence.gov.au/projects/DO/repos/devops-training-material/browse.
 
