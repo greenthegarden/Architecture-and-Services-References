@@ -8,6 +8,8 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 
 > The employment of DevOps practices and utilisation of Continuous Delivery Pipelines underpin the current approaches to delivery new features to end users with a high quality and velocity.
 
+![DevOps](graphics/devops.png)
+
 ## References
 
 ### Articles

@@ -1,0 +1,5 @@
+= Development Practices Onboarding Material Home Page
+Vu Han Mach <vucoda@gmail.com>
+v0.1.0, 2020-10-01 12:00:00 : asciidoc_sample
+
+You have stumbled upon the **Development Practices Onboarding Material Home Page**. Welcome and explore!
