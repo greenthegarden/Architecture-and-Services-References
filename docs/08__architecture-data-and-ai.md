@@ -1,10 +1,10 @@
 ---
-title: Training 07 - Architecture (Data and AI)
+title: Training 08 - Architecture (Data and AI)
 date: 2020-10-09
 authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
-# Training: 07 - Architecture (Data and AI)
+<!-- # Training 08 - Architecture (Data and AI) -->
 
 ## Introductory References
 

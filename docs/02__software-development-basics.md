@@ -1,10 +1,10 @@
 ---
-title: Training 01 - Software Development Basics
+title: Training 02 - Software Development Basics
 date: 2020-10-09
 authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
-# Training: 01 - Software Development Basics
+<!-- # Training 02 - Software Development Basics -->
 
 > As with any task software development has many fundamental **tools of the trade**.
 

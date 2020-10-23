@@ -1,10 +1,10 @@
 ---
-title: Training 03 - Infrastructure as Code & IT Automation
+title: Training 04 - Infrastructure as Code & IT Automation
 date: 2020-10-09
 authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
-# Training: 03 - Infrastructure as Code & IT Automation
+<!-- # Training 04 - Infrastructure as Code & IT Automation -->
 
 > **The goal is to automate** as much of the software delivery process as possible. That means that you manage your infrastructure not by clicking around a web page or manually executing shell commands, but through code.  
 

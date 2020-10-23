@@ -1,10 +1,10 @@
 ---
-title: Training 04 - Agile & Lean
+title: Training 05 - Agile & Lean
 date: 2020-10-09
 authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
-# Training: 04 - Agile & Lean
+<!-- # Training 04 - Agile & Lean -->
 
 ## Introductory References
 

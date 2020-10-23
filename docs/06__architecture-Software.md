@@ -1,10 +1,10 @@
 ---
-title: Training 05 - Architecture (Software)
+title: Training 06 - Architecture (Software)
 date: 2020-10-09
 authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
-# Training: 05 - Architecture (Software)
+<!-- # Training 06 - Architecture (Software) -->
 
 ## Introductory References
 
