@@ -51,8 +51,13 @@ repos:
 
   # Configuration defined in .markdownlint.json
   # See https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md for configuration options
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: "v0.22.0"
+  # - repo: https://github.com/igorshubovych/markdownlint-cli
+  #   rev: "v0.22.0"
+  #   hooks:
+  #     - id: markdownlint
+
+  - repo: https://github.com/markdownlint/markdownlint
+    rev: "v0.11.0"
     hooks:
       - id: markdownlint
 
