@@ -1,12 +1,14 @@
 ---
-title: Training 06 - DevSecOps
+title: Training 07 - DevSecOps
 date: 2020-10-09
 authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
-# Training: 06 - DevSecOps and Continuous Delivery Pipelines
+<!-- # Training 07 - DevSecOps and Continuous Delivery Pipelines -->
 
 > The employment of DevOps practices and utilisation of Continuous Delivery Pipelines underpin the current approaches to delivery new features to end users with a high quality and velocity.
+
+![DevOps](../assets/devops.png =250x)
 
 ## References
 
@@ -51,6 +53,5 @@ Similarly to the Clound Native Computing Foundation landscape, the Continuous De
 
 - Continuous Delivery
 
-https://cd.foundation/
-
-- [Helm](https://helm.sh/)
+  - [Continous Delivery Foundation](https://cd.foundation/)
+  - [Helm](https://helm.sh/)

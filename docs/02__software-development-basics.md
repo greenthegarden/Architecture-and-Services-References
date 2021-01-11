@@ -1,10 +1,10 @@
 ---
-title: Training 01 - Software Development Basics
+title: Training 02 - Software Development Basics
 date: 2020-10-09
 authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
-# Training: 01 - Software Development Basics
+<!-- # Training 02 - Software Development Basics -->
 
 > As with any task software development has many fundamental **tools of the trade**.
 
@@ -15,7 +15,6 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 - Version Control
   - [What is Version Control](https://www.atlassian.com/git/tutorials/what-is-version-control)
   - [Semantic Versioning 2.0.0](https://semver.org/)
-  - [The Importance of Good Commit Messages](https://levelup.gitconnected.com/the-importance-of-good-commit-messages-9331251e5e33)
 - Build Automation
   - TBD
 - Package Dependency Management

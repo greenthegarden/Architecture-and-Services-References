@@ -51,22 +51,10 @@ repos:
 
   # Configuration defined in .markdownlint.json
   # See https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md for configuration options
-  # - repo: https://github.com/igorshubovych/markdownlint-cli
-  #   rev: "v0.22.0"
-  #   hooks:
-  #     - id: markdownlint
-
   - repo: https://github.com/markdownlint/markdownlint
     rev: "v0.11.0"
     hooks:
       - id: markdownlint
-
-  # - repo: https://github.com/jumanjihouse/pre-commit-hooks
-  #   rev: "2.1.4" # or specific git tag
-  #   hooks:
-  #     - id: git-check # Configure in .gitattributes
-  #     - id: git-dirty # Configure in .gitignore
-  #     - id: markdownlint # Configure in .mdlrc
 
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook.git
     rev: "v4.1.0"
