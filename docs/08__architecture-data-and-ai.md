@@ -20,4 +20,8 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 
 ### Video Playlists
 
+### Resources
+
+- [The ModelOps and MLOps Resource Hub](https://modelop.io)
+
 ## Technologies
