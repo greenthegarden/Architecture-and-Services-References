@@ -12,7 +12,7 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 
 # DevOps
 
-Traditional methods of software development involved a big release approach. Many features were developed over months, even years, and when finally ready for release the work moved to the operations teams for release.
+Traditional methods of software development involved a big release approach, called Waterfall. Many features were developed over months, even years, and when finally ready for release the work moved to the operations teams for release.
 
 The big release approach was development (dev), then operations (ops).
 
