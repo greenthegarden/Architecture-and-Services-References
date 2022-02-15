@@ -50,7 +50,7 @@ The software is deployed to customers. If defects are found or there are change 
 
 If an enhancement is large in scope, then the Waterfall process might begin again.
 
-### Advantages
+### Advantages of Waterfall
 
 * Simple and well-defined methodology.
 * Simple to manage and schedule in advance.
@@ -60,7 +60,7 @@ If an enhancement is large in scope, then the Waterfall process might begin agai
 * Software developers joining a project in progress can get up to speed quickly because everything is outlined.
 * Customers should not add new requirements, which would cause delays.
 
-### Disadvantages
+### Disadvantages of Waterfall
 
 * High risk and uncertainty in projects that are medium, large, or complex.
 * No working software until late in the process.
