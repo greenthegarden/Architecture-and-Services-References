@@ -5,10 +5,11 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 ---
 
 <!-- # Training 04 - Agile & Lean -->
+# Software development lifecycle (SDLC) methods
 
-## Waterfall development method overview
+## Waterfall development model
 
-Introduced in 1977, the waterfall approach to software development uses distinct phases sequentially, commonly:
+Introduced in 1970, and the primary SDLC used until the 1990s, the waterfall approach to software development uses distinct phases sequentially, commonly:
 
 1. Requirements specification
 1. System design
@@ -18,7 +19,7 @@ Introduced in 1977, the waterfall approach to software development uses distinct
 
 The output of each phase is input for the next phase, and phases do not overlap. No phase ends until all phase deliverables are produced, and the process receives approval from defined stakeholders to proceed. Like water flowing down a waterfall, the workflow through the phases should be one-way.
 
-![The Waterfall Method](..//assets/waterfall_method.png)
+![The Waterfall Method diagram](..//assets/waterfall-method.png)
 
 ### Projects suitable for Waterfall
 
@@ -77,16 +78,58 @@ For more information on the Waterfall method of software development, see:
 * [Waterfall Methodology](https://www.workfront.com/project-management/methodologies/waterfall) by Adobe Workfront
 * [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model) on Wikipedia
 
-## V-Model development overview
-history
-descriptions
-advantages
-disadvantages
+## Prototyping model
 
+One of the earliest alternatives to Waterfall in the mid-1970s, the Prototype method involved the creation of a low fidelity prototype to collect early feedback from users. With the feedback, the prototype is evolved into the final software.
 
-## Agile development overview
+![Prototyping model diagram](..//assets/prototyping-model.png)
 
-### The Agile Manifesto
+## Iterative model
+
+An early precursor to Agile, reportedly used as part of NASA's Project Mercury in the early 1960s. It emphasises iterative and incremental action. Only the major requirements are known from the beginning, and a quick and cheaper first version of the software is created. Then, as more requirements are identified, the software is iteratively designed and built. Each iteration gives through the entire lifecycle, and it was common for the team be working on several phases at the same time.
+
+![Iterative model diagram](..//assets/iterative-model.png)
+
+## Spiral model
+
+Introduced in 1988, the Spiral model combines aspects of Waterfall and rapid prototyping. The basic principles are:
+* Focus on minimising project risk by breaking the project into small parts.
+* Cycle through the process following the same steps each time.
+* Begin each trip around the spiral by identifying stakeholders and the 'win conditions'.
+* End each cycle with review and commitment.
+* Each trip around the spiral goes through:
+    1. Determine objects, alternatives, and constraints of the iteration.
+    1. Evaluate alternatives, and identify and resolve risks.
+    1. Develop and verify deliverables from the iteration.
+    1. Plan the next iteration.
+
+For more information, go to [Spiral development](https://en.wikipedia.org/wiki/Software_development_process#Spiral_development) on Wikipedia.
+
+![Spiral model diagram](..//assets/spiral-model.png)
+
+## V-Model
+
+Introduced in 1991, the V-Model method (also known as the Verification and Validation model) is non-linear and has a testing phase for each development phase.
+
+For more information, go to [V-Model](https://en.wikipedia.org/wiki/V-Model_(software_development) on Wikipedia, or [SDLC V-Model](https://www.geeksforgeeks.org/software-engineering-sdlc-v-model/) on GeeksforGeeks.
+
+![V-Model diagram](..//assets/v-model.png)
+
+## Incremental build model
+
+The Incremental build model applies the waterfall method incrementally.
+
+For more information, go to [Incremental development](https://en.wikipedia.org/wiki/Software_development_process#Incremental_development) on Wikipedia, or [Incremental process model](https://www.geeksforgeeks.org/software-engineering-incremental-process-model/) on GeeksforGeeks.
+
+## Waterfall-Agile Hybrid model
+
+The hybrid approach defines the project up-front like a Waterfall method, but then moves to an Agile approach for design, development and testing.
+
+For information go to [Blending Agile and Waterfall](https://www.pmi.org/learning/library/blending-agile-waterfall-successful-integration-10213) by the Project Management Institute.
+
+## Agile development model
+
+In 2001, [17 people got together to discuss the need for an alternative to documentation-driven, heavyweight software development process](https://agilemanifesto.org/history.html) and together they created the [Agile Manifesto](https://agilemanifesto.org/).
 
 ### Agile misconceptions
 
