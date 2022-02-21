@@ -31,7 +31,7 @@ Projects that:
 
 #### Requirements
 
-All project requirements must be gathered and outlined in writing. The output from this phase is generally a single requirement specifications document, that describes each stage of the project, including costs, assumptions, risks, dependencies, success metrics, and timelines. One the requirements are approved by the required stakeholders, they shouldn't change.
+All project requirements must be gathered and outlined in writing. The output from this phase is generally a single requirement specifications document, that describes each stage of the project, including costs, assumptions, risks, dependencies, success metrics, and timelines. Once the requirements are approved by the required stakeholders, they shouldn't change.
 
 #### Design
 
