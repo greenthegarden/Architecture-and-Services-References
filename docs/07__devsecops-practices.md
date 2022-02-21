@@ -30,7 +30,7 @@ It applies automation where it's beneficial, reducing manual handling and human 
 
 ## DevSecOps
 
-DevSecOps is DevOps, plus the integration of security at all stages in the software development.
+DevSecOps is DevOps with an emphasis on integrating security at all stages of development and operations.
 
 ![DevSecOps venn diagram](../assets/DevSecOps_venn.png)
 
