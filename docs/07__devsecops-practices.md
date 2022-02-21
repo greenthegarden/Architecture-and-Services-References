@@ -30,7 +30,7 @@ It applies automation where it's beneficial, reducing manual handling and human 
 
 ## DevSecOps
 
-DevSecOps is DevOps, plus the integration of security at all stages in the software development.
+DevSecOps is DevOps with an emphasis on integrating security at all stages of development and operations.
 
 ![DevSecOps venn diagram](../assets/DevSecOps_venn.png)
 
@@ -41,8 +41,8 @@ The CI/CD pipeline aims to deliver software updates more frequently. It manages 
 
 ### Continuous Integration (CI)
 
-CI forms the first part of the CI/CI pipeline, and is a process with:
-1.	Developers frequently integrating their code into a central repository.
+CI forms the first part of the CI/CD pipeline, and is a process with:
+1.	Developers frequently integrating their code into a central repository (Trunk Based Development).
 1.	Frequent automated code building.
 1.	Frequent automated code testing.
 1.	Frequent pushing of artefacts into repositories for deployment.
