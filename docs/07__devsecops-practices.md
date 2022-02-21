@@ -89,7 +89,43 @@ CD offers higher quality software through reduced human error and increased flex
   * being quicker to market
   * reacting faster to customer needs
 
-## References
+## CVEs and SCAP
+
+* CVEs [https://www.cve.org/](https://www.cve.org/)
+* SCAP [https://csrc.nist.gov/projects/security-content-automation-protocol](https://csrc.nist.gov/projects/security-content-automation-protocol)
+
+## Authentication/authorisation and access control
+
+* [https://www.imperva.com/learn/data-security/role-based-access-control-rbac/](https://www.imperva.com/learn/data-security/role-based-access-control-rbac/)
+
+## Security testing
+
+[https://www.softwaresecured.com/what-do-sast-dast-iast-and-rasp-mean-to-developers/](https://www.softwaresecured.com/what-do-sast-dast-iast-and-rasp-mean-to-developers/)
+
+## Chaos engineering
+
+## United States Department of Defense DevSecOps Initiative
+
+* [Contracting Considerations for Agile Solutions](https://www.dau.edu/cop/it/DAU%20Sponsored%20Documents/Contracting%20Considerations%20for%20Agile%20Solutions%20v1.0.pdf)
+* Software factory "Collection of DevSecOps CI/CD pipelines, where each pipeline is dedicated to unifying people, automated processes, and relevant tools to create artifacts in support of a specific program(s) and/or mission set(s)."
+* [https://software.af.mil/wp-content/uploads/2021/05/DoD-Enterprise-DevSecOps-2.0-Fundamentals.pdf](https://software.af.mil/wp-content/uploads/2021/05/DoD-Enterprise-DevSecOps-2.0-Fundamentals.pdf)
+
+## Software Supply Chain Security
+
+* [Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities](https://csrc.nist.gov/publications/detail/sp/800-218/final)
+* [Kubernetes Hardening Guidance](https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF)
+* [https://sysdig.com/blog/software-supply-chain-security/](https://sysdig.com/blog/software-supply-chain-security/)
+* [https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04232020.pdf](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04232020.pdf)
+[Defending against software supply chain attacks](https://www.cisa.gov/sites/default/files/publications/defending_against_software_supply_chain_attacks_508_1.pdf)
+
+## Zero Trust
+
+* [I read the federal government’s Zero-Trust Memo so you don’t have to](https://www.bastionzero.com/blog/i-read-the-federal-governments-zero-trust-memo-so-you-dont-have-to)
+* [MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES: Moving the U.S. Government Toward Zero Trust Cybersecurity Principles](https://www.whitehouse.gov/wp-content/uploads/2022/01/M-22-09.pdf)
+* [MEMORANDUM FOR SENIOR PENTAGON LEADERSHIP: Software Development and Open Source Software](https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf)
+* [ZERO TRUST, IDENTITY-BASED SECURITY](https://www.hashicorp.com/solutions/zero-trust-security)
+* [https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf)
+
 
 ### Articles
 
