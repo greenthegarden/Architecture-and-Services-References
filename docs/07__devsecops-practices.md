@@ -12,7 +12,7 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 
 # DevOps
 
-Traditional methods of software development involved a big release approach, called Waterfall. Many features were developed over months, even years, and when finally ready for release the work moved to the operations teams for release.
+Traditional methods of software development involved a big release approach, called [Waterfall](05_agile-and-lean.md). Many features were developed over months, even years, and when finally ready for release the work moved to the operations teams for release.
 
 The big release approach was development (dev), then operations (ops).
 
@@ -73,7 +73,7 @@ CD forms the second part of the CI/CD pipeline, and is a process where:
 1. Deployment can be manually started, or on a schedule.
 1. Built artifacts from CI are automatically deployed to various environments, and tested, following the deployment process.
 
-Continuous deployment (sometimes also called CD) is the same practice, except that the deployment (even to production) is  automated.
+Continuous deployment (sometimes also called CD) is the same practice, except that the deployment is  automated to production. For more information on continuous delivery and continuous deployment, go to page 25 of the [United States DevSecOps Fundamentals](https://software.af.mil/wp-content/uploads/2021/05/DoD-Enterprise-DevSecOps-2.0-Fundamentals.pdf).
 
 #### Benefits of CD
 
