@@ -111,7 +111,7 @@ For more information, go to [Spiral development](https://en.wikipedia.org/wiki/S
 
 Introduced in 1991, the V-Model method (also known as the Verification and Validation model) is non-linear and has a testing phase for each development phase.
 
-For more information, go to [V-Model](https://en.wikipedia.org/wiki/V-Model_(software_development) on Wikipedia, or [SDLC V-Model](https://www.geeksforgeeks.org/software-engineering-sdlc-v-model/) on GeeksforGeeks.
+For more information, go to [V-Model](https://en.wikipedia.org/wiki/V-Model_(software_development)) on Wikipedia, or [SDLC V-Model](https://www.geeksforgeeks.org/software-engineering-sdlc-v-model/) on GeeksforGeeks.
 
 ![V-Model diagram](..//assets/v-model.png)
 
