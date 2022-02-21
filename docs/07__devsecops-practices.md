@@ -41,7 +41,7 @@ The CI/CD pipeline aims to deliver software updates more frequently. It manages 
 
 ### Continuous Integration (CI)
 
-CI forms the first part of the CI/CI pipeline, and is a process with:
+CI forms the first part of the CI/CD pipeline, and is a process with:
 1.	Developers frequently integrating their code into a central repository.
 1.	Frequent automated code building.
 1.	Frequent automated code testing.
