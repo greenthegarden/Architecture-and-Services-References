@@ -12,6 +12,7 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 A microservice architecture is a development practice where you separate parts of an application into sections, each called a microservice. Each microservice:
 * is a small distinct section of the application
 * does something specific
+* owns their own data
 * is often packaged into an individual container
 * communicates with other microservices
 * can be independently deployed.
@@ -33,11 +34,15 @@ Designing a microservice architecture takes careful thought and consideration. I
 
 For a brief example demonstrating a domain analysis with DDD, and identifying microservices, see [Using domain analysis to model microservices](https://docs.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis#:~:text=A%20bounded%20context%20is%20simply,necessarily%20isolated%20from%20one%20another.) by Microsoft.
 
+When building each of the microservices, you can follow [Twelve-Factor Apps](https://12factor.net/), or [15-Factor Apps](https://www.oreilly.com/library/view/beyond-the-twelve-factor/9781492042631/).
+
 #### Migrating a monolithic application to microservices
 
-It's possible to transition a monolith to a microservices architecture by following a process called "Killing the monolith". The idea behind this process is to slowly take parts of the monolithic application and replace them with microservices over time, until eventually the entire monolith is no longer in use.
+It's possible to transition a monolith to a microservices architecture by following the Strangler Fig Pattern, or "Strangling the monolith". The idea behind this process is to slowly take parts of the monolithic application and replace them with microservices over time, until eventually the entire monolith is no longer in use.
 
 To read about how one organisation implemented this practice, see [Killing a Monolith — How Smartly.io Reworked their Architecture](https://www.smartly.io/blog/killing-a-monolith-how-smartly.io-reworked-their-architecture) by Oskari Virtanen.
+
+For more information on the Strangler Fig Pattern, see [Monolith to Microservices](https://www.oreilly.com/library/view/monolith-to-microservices/9781492047834/) by Sam Newman.
 
 #### Size of a microservice
 
