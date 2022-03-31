@@ -7,9 +7,13 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 <!-- # Training 04 - Agile & Lean -->
 # Software development lifecycle (SDLC) methods
 
+A software development lifecycle is a big-picture view of software development, from the very first stages of conception all the way through to the maintenance of the live system. Many different SDLCs have been created to optimise the entire process, with Agile processes being the most modern.
+
+This page gives an overview of some of the more common SDLCs, to demonstrate how things have evolved over the decades of software development practices.
+
 ## Waterfall development model
 
-Introduced in 1970, and the primary SDLC used until the 1990s, the waterfall approach to software development uses distinct phases sequentially, commonly:
+Introduced in 1970, and the primary SDLC used until the 1990s, the waterfall approach to software development uses distinct phases sequentially, usually:
 
 1. Requirements specification
 1. System design
