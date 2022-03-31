@@ -10,43 +10,47 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 
 ## Source code
 
-The code of a computer program, written by programmers in plain text and understandable by a human being. Source code gets transformed into the machine code of 1s and 0s and this tells the computer what to do.
+Source code is the code of a computer program, written by programmers in plain text and understandable by a human being. Source code gets transformed into the machine code of 1s and 0s and this tells the computer what to do.
 
 Source code can be proprietary or open-source. Open-source means that the computer program code is shared for all to use.
 
 Source code is what computer programmers create when they make computer programs. It often relies on supporting files, such as images.
 
-## Source control
+### Source control
 
 Source control is tracking and managing changes to your code over time. Like using 'Track Changes' in a word document.
 
-## Source control management (or version control system)
+### Source control management (or version control system)
 
 A system that enables source control. It provides the projects change  history, and provides methods of managing conflicting code changes (for example, two people both modify the same section of code).
 
-### Benefits
+Source control management system benefits:
 
 * Easily revert changes in the project back to a previous point in time
 * Allows for multiple people to contribute modifications to the code in a pre-determined, controlled manner
 * Keeps a history of your project from the viewpoints of its changes
 * Makes troubleshooting simpler by seeing who made what changes, when.
 
-### Source control system examples
+Source control management system examples:
 
-* [Git](https://git-scm.com/)
+* [Git](#git)
 * [Mercurial](https://www.mercurial-scm.org/)
 * [Apache Subversion](https://subversion.apache.org/)
 * [Azure DevOps Server](https://azure.microsoft.com/en-au/services/devops/server/) (previously known as Team Foundation Server).
 
-### Git
+#### <a name="git"></a>Git
 
 Git is a mature, actively maintained open-source source code management system created in 2005.
 
-Git is a distributed version control system, which means every team members has a copy of the project locally on their computer. This is contrasted with a centralised version control system where all team members connect to a single server, which will prevent programmers from continuing to work if they cannot access the server.
+Git is a distributed version control system, which means every team member has a copy of the project locally on their computer. This is contrasted to a centralised version control system where all team members connect to a single server, which will prevent programmers from continuing to work if they cannot access the server.
 
-Watch [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE) (1:09:13) on YouTube to learn Git.
+To learn git:
 
-Use Atlassians [Git commands cheat sheet](onenote:#section-id={878FE29D-7937-4B76-878B-4B2DB9B96219}&end&base-path=https://consiliumt-my.sharepoint.com/personal/kaylan_lily_consilium_technology/Documents/Kaylan%20@%20Consilium%20Technology%20Pty%20Ltd/DevOps.one).
+* Watch the [learn Git videos](https://git-scm.com/videos)
+* View the [Git website]([Git](https://git-scm.com/)
+* View the [Git docs]().
+* Watch [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE) (1:09:13) on YouTube
+* Use Atlassians [Git commands cheat sheet](onenote:#section-id={878FE29D-7937-4B76-878B-4B2DB9B96219}&end&base-path=https://consiliumt-my.sharepoint.com/personal/kaylan_lily_consilium_technology/Documents/Kaylan%20@%20Consilium%20Technology%20Pty%20Ltd/DevOps.one).
 
 ## Software version numbers
 
@@ -73,7 +77,6 @@ Read more about [Semantic Versioning](https://semver.org/).
 
 - Version Control
   - [What is Version Control](https://www.atlassian.com/git/tutorials/what-is-version-control)
-  - [Semantic Versioning 2.0.0](https://semver.org/)
 - Build Automation
   - TBD
 - Package Dependency Management
@@ -88,16 +91,6 @@ Read more about [Semantic Versioning](https://semver.org/).
 - Unit Testing
   - Python
     - [Python Testing with pytest](https://learning.oreilly.com/library/view/python-testing-with/9781680502848/) - by Brian Okken
-
-### Video Playlists
-
-TBD
-
-### Tutorials
-
-TBD
-
-## Benefits of Tools
 
 ## Technologies
 
