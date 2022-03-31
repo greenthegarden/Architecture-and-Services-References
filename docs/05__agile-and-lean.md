@@ -7,7 +7,7 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 <!-- # Training 04 - Agile & Lean -->
 # Software development lifecycle (SDLC) methods
 
-A software development lifecycle is a big-picture view of software development, from the very first stages of conception all the way through to the maintenance of the live system. Many different SDLCs have been created to optimise the entire process, with Agile processes being the most modern.
+A software development lifecycle is a big-picture view of software development, from the very first stages of conception all the way through to the maintenance of the live system. Many different SDLCs have been created in an attempt to optimise the entire process.
 
 This page gives an overview of some of the more common SDLCs, to demonstrate how things have evolved over the decades of software development practices.
 
@@ -71,7 +71,7 @@ If an enhancement is large in scope, then the Waterfall process might begin agai
 * No working software until late in the process.
 * In practice requirements often do change, which can become time-consuming, and costly.
 * Does not allow for reflection or revision of design once implementation begins.
-* May take longer to deliver then using an iterative approach, such as the Agile method.
+* May take longer to deliver then using an iterative approach, such as an Agile method.
 * Clients may not fully know what they want from the beginning.
 * Clients are not involved in the design and implementation phases.
 * Deadline creep can occur when one phase is delayed, delaying future phases.
@@ -98,11 +98,16 @@ For more information, go to [V-Model](https://en.wikipedia.org/wiki/V-Model_(sof
 
 One of the earliest alternatives to Waterfall in the mid-1970s, the Prototype method involved the creation of a low fidelity prototype to collect early feedback from users. With the feedback, the prototype is evolved into the final software.
 
+For more information, go to [Prototyping Model in Software Engineering: Methodology, Process, Approach](https://www.guru99.com/software-engineering-prototyping-model.html).
+
 ![Prototyping model diagram](..//assets/prototyping-model.png)
 
 ### Iterative model
 
 An early precursor to Agile, reportedly used as part of NASA's Project Mercury in the early 1960s. It emphasises iterative and incremental action. Only the major requirements are known from the beginning, and a quick and cheaper first version of the software is created. Then, as more requirements are identified, the software is iteratively designed and built. Each iteration gives through the entire lifecycle, and it was common for the team be working on several phases at the same time.
+
+For a brief history of iterative development, see [Iterative and Incremental Development](https://www.craiglarman.com/wiki/downloads/misc/history-of-iterative-larman-and-basili-ieee-computer.pdf) by Craig
+Larman and Victor R. Basili.
 
 ![Iterative model diagram](..//assets/iterative-model.png)
 
@@ -157,7 +162,7 @@ Agile focuses on:
 * Testing early and often
 * Frequent delivery of working software in short, rapid iterations.
 
-To learn more, watch [What is Agile? on YouTube](https://www.youtube.com/watch?v=Z9QbYZh1YXY).
+To learn more, watch [What is Agile? on YouTube](https://www.youtube.com/watch?v=Z9QbYZh1YXY), or read the [Agile software guide](*https://martinfowler.com/agile.html) by Martin Fowler.
 
 The following Agile methodologies define distinct methods for following Agile principles.
 
@@ -166,10 +171,12 @@ The following Agile methodologies define distinct methods for following Agile pr
 A framework for managing iterative incremental projects of all types (not just software development).
 
 To learn more, watch:
-*  [Scrum Framework (4:30)](https://www.youtube.com/watch?v=zVNnEIf_PLY) on YouTube
+*  [A Brief Overview of the Scrum Framework (4:30)](https://www.youtube.com/watch?v=gy1c4_YixCo) on YouTube
 * [What is Scrum: An Introduction to the Scrum Framework (1:03:48)](https://www.youtube.com/watch?v=-xudUyGsNfc)  on YouTube.
 
-Read the official [Scrum Guide](https://scrumguides.org/).
+Or read:
+* [What is Scrum](https://www.scrum.org/resources/what-is-scrum)
+* the official [Scrum Guide](https://scrumguides.org).
 
 ### Extreme Programming (XP)
 
@@ -182,7 +189,7 @@ The values of XP are:
 * Courage
 * Respect.
 
-There's also 12 supporting practices: planning games, small releases, customer acceptance tests, simple design, [pair programming](https://martinfowler.com/articles/on-pair-programming.html), [test-driven development](https://martinfowler.com/bliki/TestDrivenDevelopment.html), [refactoring](https://martinfowler.com/books/refactoring.html), [continuous integration](..//docs/07_devsecops-practices), collective code ownership, coding standards, metaphors, and sustainable pace.
+There's also 12 supporting practices: planning games, small releases, customer acceptance tests, simple design, [pair programming](https://martinfowler.com/articles/on-pair-programming.html), [test-driven development](https://martinfowler.com/bliki/TestDrivenDevelopment.html), [refactoring](https://refactoring.com/), [continuous integration](..//docs/07_devsecops-practices), [collective code ownership](https://martinfowler.com/bliki/CodeOwnership.html), coding standards, metaphors, and sustainable pace.
 
 Read more about Extreme Programming on [the Agile Alliance](https://www.agilealliance.org/glossary/xp/), or go to [Extreme Programming: A gentle introduction](http://www.extremeprogramming.org/).
 
@@ -246,16 +253,6 @@ Watch this YouTube video on [What is Kanban](https://www.youtube.com/watch?v=iVa
 
 Kanban optimises team throughput while respecting and maintaining a sustainable pace.
 
-## Introductory References
-
-### Articles
-
-- Agile
-  - [Manifesto for Agile Software Development](https://agilemanifesto.org/)
-  - [Agile Software Guide](https://martinfowler.com/agile.html)
-- Scrum
-  - [What is scrum?](https://www.scrum.org/resources/what-is-scrum)
-
 ## Agile Development information from to-sort
 
   - [Agile Development: A quick overview](https://medium.com/theagilemanager/a-quick-overview-to-agile-5c87ffc9e0f2)
@@ -269,14 +266,9 @@ Kanban optimises team throughput while respecting and maintaining a sustainable 
   - [A Guide To Writing Effective User Stories](https://medium.com/@george_wilde/a-guide-to-writing-effective-user-stories-658823dec2e0)
   - [Setting up a product backlog management process using Jira](https://medium.com/@sergiialekseev/setting-up-a-product-backlog-management-process-using-jira-252da2ab133a)
 
-
 ### Books
 
 - Agility
   - [A Seat at the Table](https://learning.oreilly.com/library/view/a-seat-at/9781457191411/) – by Mark Schwartz
 - Lean
   - [The Lean Startup](https://www.amazon.com.au/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B00NPB3THW/ref=sr_1_1?dchild=1&keywords=lean+startup&qid=1601904066&sr=8-1) - by Eric Ries
-
-### Video Playlists
-
-## Technologies
