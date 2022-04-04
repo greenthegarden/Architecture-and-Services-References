@@ -25,7 +25,42 @@ authors: Hing-Wah.Kwok@dst.defence.gov.au, Philip.Cutler@dst.defence.gov.au
 
 - [Infrastructure As Code Tutorial](https://github.com/Artemmkin/infrastructure-as-code-tutorial)
 
+## Executive summary
+
+A DevOps practice used in conjunction with continuous delivery, infrastructure as code (IaC) lets you manage your infrastructure using source-controlled code instead of a manual process.
+
+IaC introduces automation, replicability, reliability, and increases speed for provisioning. It reduces human error and costs.
+
+### Overview
+
+Infrastructure as code is an important part of DevOps. Machine-readable definition files manage and provision infrastructure, and management of that code is done with source control, like developers do with application code. If the team needs to make changes to some infrastructure configuration, they make those changes in the code.
+
+By defining your environments in source-controlled code, you can easily replicate the environment, or see what changes were made, by whom, when.
+
+There are continuous configuration automation tools available, that extend IaC. These tools provide visibility, efficiency, and flexibility with enterprise-level security and compliance.
+
+Learn more:
+
+* [What is Infrastructure as Code? by Microsoft](https://docs.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code)
+* [What is Infrastructure as Code (IaC)? by Red Hat](https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac)
+
+### Problems it attempts to solve
+
+Managing, and administering infrastructure is traditionally a time consuming, primarily manual process. Developers could be left waiting on the manual provisioning and configuration of required infrastructure by operations staff.
+
+Undocumented, ad-hoc changes known as configuration or environment drift can happen, and cause environments to be difficult to replicate and manage.
+
 ## Benefits of Infrastructure as Code
+
+At a high level, infrastructure automation:
+
+* automates configuration management
+* makes your systems more stable and reliable
+* makes your infrastructure processes more repeatable
+* enforces consistency, eliminating environmental drift
+* provides scalable and rapid server provisioning reduces costs.
+
+More specific benefits of IaC:
 
 - **Self-Service**
   - Most teams only have a small number of sysadmins who can access production
