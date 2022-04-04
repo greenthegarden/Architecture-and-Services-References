@@ -84,7 +84,7 @@ For more information on the Waterfall method of software development, see:
 
 ## Variations on Waterfall
 
-With the limitations and inflexibility of Waterfall, many early methodologies were created to attempt to minimise this issue.
+Many early methodologies were created to try minimise the inflexibility of Waterfall.
 
 ### V-Model
 
